@@ -726,7 +726,52 @@ html.title-slide body .reveal .slides section section{
 		
 	}
 	
+	.video-workflow{
+		height: 30rem;
+		img{
+			width: 6rem;
+			position: absolute;
+		}
+		.story{
+			top: 12.5rem;
+			left: 1rem;
+		}
+		.speedgrade{
+			top: 12.5rem;
+			right: 1rem;
+		}
 
+		.media_encoder{
+			bottom: 1rem;
+		}
+		.audition{
+			bottom: 5rem;
+			right: 10rem;
+		}
+		.premiere{
+			top: 10rem;
+			right: 20rem;
+			width: 10rem;
+		}
+		.prelude{
+			left: 20rem;
+			top: 12.5rem;
+		}
+		.after_effects{
+			top: 2rem;
+			right: 8rem;
+			width: 10rem;
+		}
+
+	}
+}
+
+.icon-box .notvideo{
+	// opacity: .2;
+	-webkit-filter: brightness(.1);
+}
+.icon-box .video{
+	-webkit-filter: brightness(1.3);
 }
 
 

@@ -594,6 +594,39 @@ html.title-slide body .reveal .slides section section {
       width: 10%;
       padding: 1.5rem 0;
       background-color: #ff0000; }
+.reveal .video-workflow {
+  height: 30rem; }
+  .reveal .video-workflow img {
+    width: 6rem;
+    position: absolute; }
+  .reveal .video-workflow .story {
+    top: 12.5rem;
+    left: 1rem; }
+  .reveal .video-workflow .speedgrade {
+    top: 12.5rem;
+    right: 1rem; }
+  .reveal .video-workflow .media_encoder {
+    bottom: 1rem; }
+  .reveal .video-workflow .audition {
+    bottom: 5rem;
+    right: 10rem; }
+  .reveal .video-workflow .premiere {
+    top: 10rem;
+    right: 20rem;
+    width: 10rem; }
+  .reveal .video-workflow .prelude {
+    left: 20rem;
+    top: 12.5rem; }
+  .reveal .video-workflow .after_effects {
+    top: 2rem;
+    right: 8rem;
+    width: 10rem; }
+
+.icon-box .notvideo {
+  -webkit-filter: brightness(0.1); }
+
+.icon-box .video {
+  -webkit-filter: brightness(1.3); }
 
 .adobelogo {
   right: 10%;
