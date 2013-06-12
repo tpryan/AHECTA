@@ -727,18 +727,24 @@ html.title-slide body .reveal .slides section section{
 	}
 	
 	.video-workflow{
+
+		.workflow{
+			margin-top: 14rem;
+			border-top: 2px dotted #ccc;
+		}
+
 		height: 30rem;
 		img{
 			width: 6rem;
 			position: absolute;
 		}
 		.story{
-			top: 12.5rem;
-			left: 1rem;
+			top: 11rem;
+			left: 2rem;
 		}
 		.speedgrade{
-			top: 12.5rem;
-			right: 1rem;
+			top: 11rem;
+			right: 2rem;
 		}
 
 		.media_encoder{
@@ -750,19 +756,42 @@ html.title-slide body .reveal .slides section section{
 		}
 		.premiere{
 			top: 10rem;
-			right: 20rem;
-			width: 10rem;
+			right: 18rem;
+			width: 8rem;
 		}
 		.prelude{
 			left: 20rem;
-			top: 12.5rem;
+			top: 11rem;
 		}
 		.after_effects{
 			top: 2rem;
 			right: 8rem;
-			width: 10rem;
+			width: 8rem;
 		}
 
+	}
+
+	.single-product{
+		figure{
+			width: 46%;
+			img{
+				position: static;
+				width: 15rem;
+				
+			}
+			figcaption{
+				font-size: 4rem;
+				margin: 0;
+				text-transform: none;
+				width: 100%;
+				text-align: center;
+			}
+		}
+		font-family: $lightFont;
+		ul{
+			width: 46%;
+			padding-top: 40px;
+		}
 	}
 }
 

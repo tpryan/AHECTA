@@ -596,15 +596,18 @@ html.title-slide body .reveal .slides section section {
       background-color: #ff0000; }
 .reveal .video-workflow {
   height: 30rem; }
+  .reveal .video-workflow .workflow {
+    margin-top: 14rem;
+    border-top: 2px dotted #ccc; }
   .reveal .video-workflow img {
     width: 6rem;
     position: absolute; }
   .reveal .video-workflow .story {
-    top: 12.5rem;
-    left: 1rem; }
+    top: 11rem;
+    left: 2rem; }
   .reveal .video-workflow .speedgrade {
-    top: 12.5rem;
-    right: 1rem; }
+    top: 11rem;
+    right: 2rem; }
   .reveal .video-workflow .media_encoder {
     bottom: 1rem; }
   .reveal .video-workflow .audition {
@@ -612,15 +615,31 @@ html.title-slide body .reveal .slides section section {
     right: 10rem; }
   .reveal .video-workflow .premiere {
     top: 10rem;
-    right: 20rem;
-    width: 10rem; }
+    right: 18rem;
+    width: 8rem; }
   .reveal .video-workflow .prelude {
     left: 20rem;
-    top: 12.5rem; }
+    top: 11rem; }
   .reveal .video-workflow .after_effects {
     top: 2rem;
     right: 8rem;
-    width: 10rem; }
+    width: 8rem; }
+.reveal .single-product {
+  font-family: "Source Sans Pro Extra Light"; }
+  .reveal .single-product figure {
+    width: 46%; }
+    .reveal .single-product figure img {
+      position: static;
+      width: 15rem; }
+    .reveal .single-product figure figcaption {
+      font-size: 4rem;
+      margin: 0;
+      text-transform: none;
+      width: 100%;
+      text-align: center; }
+  .reveal .single-product ul {
+    width: 46%;
+    padding-top: 40px; }
 
 .icon-box .notvideo {
   -webkit-filter: brightness(0.1); }
