@@ -213,8 +213,20 @@ html.cloudburst-slide body {
 html.title-slide body .reveal .slides section section {
   background: none; }
 
+.reveal section .icon-small {
+  width: 3rem;
+  vertical-align: bottom;
+  margin: 2rem 0 0 0; }
 .reveal code {
   font-family: "Source Code Pro"; }
+.reveal .profile {
+  float: left; }
+.reveal .portrait {
+  vertical-align: top;
+  margin: 0;
+  margin-left: 3rem;
+  width: 20rem;
+  float: left; }
 .reveal .hashtag {
   position: absolute;
   bottom: 0;
@@ -366,6 +378,12 @@ html.title-slide body .reveal .slides section section {
     font-family: "Source Sans Pro Extra Light";
     text-transform: none;
     margin-left: 1rem; }
+  .reveal .redslide h2, .reveal .redslide h4, .reveal .redslide p {
+    padding-left: 1rem; }
+  .reveal .redslide h2 {
+    text-align: center; }
+  .reveal .redslide .profile h2 {
+    text-align: left; }
   .reveal .redslide .timeline div {
     float: left;
     font-size: 1.2rem;

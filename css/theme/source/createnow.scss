@@ -178,10 +178,31 @@ html.title-slide body .reveal .slides section section{
 
 	section{
 		//border: 1px solid red;
+
+
+		.icon-small{
+			width: 3rem;
+			vertical-align: bottom;
+			margin: 2rem 0 0 0;
+		}
+
 	}
 	code{
 		font-family: $codeFont;
 	}
+
+	.profile{
+		float: left;
+	}
+
+	.portrait{
+		vertical-align: top;
+		margin: 0;
+		margin-left: 3rem;
+		width: 20rem;
+		float: left;
+	}
+
 	.hashtag{
 		position: absolute;
 		bottom: 0;
@@ -406,6 +427,19 @@ html.title-slide body .reveal .slides section section{
 			font-family: $lightFont;
 			text-transform: none;
 			margin-left: 1rem;
+		}
+
+		h2, h4, p{
+			padding-left: 1rem;
+		}
+		h2{
+			text-align: center;
+		}
+
+		.profile{
+			h2{
+				text-align: left;
+			}
 		}
 
 		.timeline{
@@ -802,6 +836,7 @@ html.title-slide body .reveal .slides section section{
 .icon-box .video{
 	-webkit-filter: brightness(1.3);
 }
+
 
 
 
