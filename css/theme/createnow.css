@@ -382,6 +382,11 @@ html.title-slide body .reveal .slides section section {
     padding-left: 1rem; }
   .reveal .redslide h2 {
     text-align: center; }
+  .reveal .redslide .cloudicon {
+    margin: 0 auto;
+    text-align: center; }
+    .reveal .redslide .cloudicon img {
+      width: 40rem; }
   .reveal .redslide .profile h2 {
     text-align: left; }
   .reveal .redslide .timeline div {
